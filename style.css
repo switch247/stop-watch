@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(24, 21, 18, 0.9);
+  min-width: 200px !important;
+  /* width: 100%; */
+  min-height: 300px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: black;
+  margin-top: 40px;
+  margin-right: 1em;
+  background: rgb(170, 159, 159, 0.1);
+  color: rgb(10, 235, 235);
+  box-shadow: solid 1px;
+}
+button:hover {
+  background: rgb(170, 159, 159, 0.6);
+  box-shadow: 1px -1px teal;
+}
+.disp {
+  display: flex;
+  align-items: center;
+  /* background: red; */
+  /* width: 100px; */
+  /* z-index: 3; */
+  margin: 1em;
+  /* border: 1px solid white; */
+}
+.disp div {
+  margin: 1em;
+  padding: 1em;
+  /* border: 1px solid white; */
+  color: aqua;
+}
+
+.disp span {
+  color: aqua;
+}
